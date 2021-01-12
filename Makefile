@@ -1,5 +1,5 @@
 COMMIT 	= $(shell git log -1 --format=%H | cut -c1-8)
-VERSION = 0.1.0
+VERSION = 0.1.1
 
 all: build
 
